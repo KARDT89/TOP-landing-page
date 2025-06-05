@@ -3,22 +3,61 @@ body {
     margin: 0;
     font-family: "Roboto";
 }
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+nav, .hero {
+    color: #F9FAF8;
     background-color: #1F2937;
-    color: white;
-}
-nav > ul {
-    display: flex;
-    list-style-type: none;
-    gap: 15px; 
 }
 
-section {
-    background-color: #1F2937;
-    color: white;
+.container {
+    max-width: 1200px;
     display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.container > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+}
+
+.left {
+    width: 37%;
     text-wrap: wrap;
+}
+
+.left > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.left > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    opacity: 70%;
+}
+
+.left > button {
+    padding: 0.5rem 1.8rem;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: 700;
+}
+
+.right {
+    background-color: #57595c;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    padding: 7rem;
 }
