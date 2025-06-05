@@ -130,3 +130,51 @@ li > p {
     font-weight: bold;
 }
 
+.hero-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    padding: 60px;
+    margin: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    width: 45%;
+    align-items: center;
+}
+
+span > h1{
+    margin: 0;
+}
+
+span > h2 {
+    margin: 0;
+    font-size: 18px;
+    opacity: 80%;
+}
+
+.container-2 > button {
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+
+footer > h1{
+    text-align: center;
+    background-color:#1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 30px;
+    margin: 0;
+}
